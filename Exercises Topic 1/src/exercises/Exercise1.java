@@ -7,7 +7,7 @@ public class Exercise1 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Type in a number: ");
 		number = sc.nextDouble();
-		
-		System.out.println("The following number has been converted to an integer: ");
+		number = (int) (number*10.0)/10.0;
+		System.out.println("The following number has been converted to an integer: " + number);
 	}
 }
