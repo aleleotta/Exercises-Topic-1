@@ -18,6 +18,7 @@ public class Exercise5 {
 		System.out.println("Enter the (x) value: ");
 		x = sc.nextInt();
 		y = (a * x * x) + (b * x) + c; //Formula calculation
+		System.out.println("");
 		System.out.println("The value of (y) is: " + y); //Result output
 		sc.close(); //Closing scanner
 	}
